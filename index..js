@@ -44,3 +44,59 @@ console.log(remainder);
 let undefinedVariable;
 console.log(undefinedVariable);
 
+// Calculate the area of a rectangle using the length and width.
+let length = 8;
+let width = 5;
+let area = length * width;
+console.log(area);
+
+// Check if two strings are identical and display the result.
+let str1 = "Good morning";
+let str2 = "Good morning";
+console.log("The strings are identical: ", str1 === str2);
+
+// Declare two boolean variables and perform logical operations on them.
+let condition1 = true;
+let condition2 = false;
+console.log(condition1 && condition2); // false
+console.log(condition1 || condition2); // true
+console.log(!condition1); // false
+
+// Declare a variable for the birth year and calculate the age.
+let birthYear = 1997;
+let currentYear = new Date().getFullYear();
+let myAge = currentYear - birthYear;
+console.log(myAge);
+
+// Concatenate two strings and convert the result to uppercase.
+let str3 = "Welcome";
+let str4 = "Home";
+let concatenatedStr = str3 + " " + str4;
+let upperCaseStr = concatenatedStr.toUpperCase();
+console.log(upperCaseStr);
+
+// Check if a number is greater than or equal to 100 and display the result.
+let numToCheck = 180;
+let isGreaterOrEqual = numToCheck >= 100;
+console.log("The number is greater than or equal to 100: ", isGreaterOrEqual);
+
+// Declare a variable for the distance in kilometers and convert it to miles.
+let distanceInKm = 70;
+let distanceInMiles = distanceInKm * 0.621371;
+console.log(distanceInMiles);
+
+// Assign a number the value null and check the data type.
+let nullNumber = null;
+console.log(typeof nullNumber); // object
+
+// Declare two numbers and display if they are equal.
+let num5 = 10;
+let num6 = 10;
+let numbersAreEqual = num5 === num6;
+console.log("The numbers are equal: ", numbersAreEqual);
+
+// Declare a variable for the price of a product and apply a discount.
+let productPrice = 50;
+let discount = 0.1; // 10%
+let discountedPrice = productPrice - (productPrice * discount);
+console.log(discountedPrice);
